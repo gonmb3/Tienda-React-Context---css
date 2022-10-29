@@ -1,0 +1,43 @@
+/*Header*/
+
+.header{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    overflow: hidden;
+    align-items: center;
+    background-color: goldenrod;
+    z-index: 100;
+}
+
+.logo{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.header-links{
+    display: flex;
+    gap: 1.2rem;
+   
+    
+}
+
+.header-links li{
+    display: inline-block;
+    font-size: 18px;
+   
+}
+.header-links li a{
+    color: #fff;  
+    transition: .3s all ease;
+}
+
+.header-links li a:hover{
+    color: #cecece;
+}
